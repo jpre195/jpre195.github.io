@@ -1,4 +1,4 @@
-baseURL: "https://jpre195.github.io/my-website"
+baseURL: "https://jpre195.github.io/"
 languageCode: "en-us"
 title: "Jeffrey Preston"
 theme: hugo-profile
