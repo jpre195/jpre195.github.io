@@ -20,6 +20,9 @@
                     <div class="col-md-9">
                         <div class="card">
                             <div class="card-body">
+                                {{ if .school.image }}
+                                <img src="{{ .school.image }}" height="75" style="float:left; padding:10px">
+                                {{ end }}
                                 <div class="float-end">
                                     <small>{{ .date }}</small>
                                 </div>

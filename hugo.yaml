@@ -177,29 +177,34 @@ params:
         school:
           name: "Georgia Institute of Technology"
           url: "https://www.gatech.edu/"
+          image: /images/gatech.png
         date: "2024 - 2027 (estimated)"
       - title: "Master of Science in Statistics"
         school:
           name: "Washington State University"
           url: "https://wsu.edu/"
+          image: /images/wsu.png
         date: "2018 - 2020"
         GPA: "3.97 out of 4.0"
       - title: "Master of Science in Applied Mathematics"
         school:
           name: "University of West Georgia"
           url: "https://www.westga.edu/"
+          image: /images/uwg.png
         date: "2017 - 2018"
         GPA: "3.7 out of 4.0"
       - title: "Bachelor of Science in Statistics"
         school:
           name: "Montana Tech"
           url: "https://mtech.edu/"
+          image: /images/mt.png
         GPA: "3.48 out of 4.0"
         date: "2013 - 2017"
       - title: "Bachelor of Science in Mathematical Sciences"
         school:
           name: "Montana Tech"
           url: "https://mtech.edu/"
+          image: /images/mt.png
         GPA: "3.48 out of 4.0"
         date: "2013 - 2017"
 
