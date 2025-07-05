@@ -118,19 +118,23 @@ params:
       items:
         - "Python"
         - "SQL"
-        - "Gitlab"
+        - "LangChain"
+        - "LangGraph"
+        - "Cloudera"
+        - "Hive"
         - "Streamlit"
+        - "Chainlit"
+        - "Gitlab"
         - "Snowflake"
         - "Hugo"
-        - dbt
-        - SODA
+        - "dbt"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Data Scientist"
+      - job: "AI Engineer"
         company: "The Walt Disney Company"
         companyUrl: "https://disneyworld.disney.go.com/vacation-planning/?ef_id=CjwKCAiAt4C-BhBcEiwA8Kp0CaIeipW39rTbOx7Uu4SWCtcB9ESuu3mGOpvY2YMuBvs0WhCh6rPirxoC4DIQAvD_BwE:G:s&s_kwcid=AL!5060!3!601103288311!p!!g!!walt%20disney&CMP=KNC-FY25_WDW_TRA_DXF_W365_SCP_SCP_WDWBrand%7CG%7C5251213.RR.AM.01.01%7CM8ZL6TJ%7CBR%7C601103288311&keyword_id=kwd-32346450%7Cdc%7Cwalt%20disney%7C601103288311%7Cp%7C5060:3%7C&gad_source=1&gclid=CjwKCAiAt4C-BhBcEiwA8Kp0CaIeipW39rTbOx7Uu4SWCtcB9ESuu3mGOpvY2YMuBvs0WhCh6rPirxoC4DIQAvD_BwE"
         date: "Aug 2022 - present"
@@ -141,13 +145,18 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: |
-          I am currently working as a data scientist within the Revenue Planning and Optimization organization for Walt Disney World.
-          I am responsible for building and maintaining data science products that help create magic. I do this by using tools like
-          Python, SQL, GitLab, streamlit, Tableau, and more. I'm also responsible for creating and ensuring quality of large-scale
-          datasets for the organization to utilize for high priority analyses. This is accomplished by using tools like dbt for 
+          I am currently working as an AI Engineer within the Consumer Insights Measurement Analytics organization for Walt Disney World.
+          I am responsible for creating internal tools leveraging generative AI. These tools use things like OpenAI, Gemini, langchain, 
+          langgraph, among others to enhance the analyst experience. AI agents range from simple things like sentiment analyzers or 
+          topic modeling to more complex like text2SQL.
+
+          Before my current role, I was working as a data scientist within the Revenue Planning and Optimization organization.
+          I was responsible for building and maintaining data science products that help create magic. I did this by using tools like
+          Python, SQL, GitLab, streamlit, Tableau, and more. I was also responsible for creating and ensuring quality of large-scale
+          datasets for the organization to utilize for high priority analyses. This was accomplished by using tools like dbt for 
           modern data development and SODA for data quality.
 
-          Presented at the Innovation Showcase at the 2024 Disney Data Analytics Conference
+          Presented at the Innovation Showcase at the 2024 Disney Data Analytics Conference and scheduled to present again in 2025.
 
       - job: "Data Science Intern"
         company: "Pacific Northwest National Laboratory"
@@ -230,6 +239,15 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Incentive Chatbot
+        content: Built a RAG chatbot for Disney Central call center agent progression queries. This chatbot can answer questions about documentation for when call center agents can be promoted to the next stage in their training.
+        image: /images/projects/chatbot.jpg
+        badges:
+          - Python
+          - langchain
+          - langgraph
+          - streamlit
+          - FastAPI
       - title: Attendance Forecasting Model
         content: Developed a model to forecast 7 days of future attendance at WDW theme parks for Yield Optimization team to enact ticket stop-sales
         image: /images/projects/forecasting.jpg
